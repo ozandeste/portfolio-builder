@@ -1,12 +1,78 @@
-# React + Vite
+Portfolio Builder
+Modern ve kullanıcı dostu bir portfolio oluşturma uygulaması. React ile geliştirilmiş bu uygulama, geliştiricilerin profesyonel portfolyolarını adım adım oluşturmalarına ve PDF olarak dışa aktarmalarına olanak tanır.
+🌟 Özellikler
+✨ Modern Tasarım
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Responsive ve mobile-friendly tasarım
+Tailwind CSS ile şık ve modern UI/UX
+Adım bazlı (step-by-step) form sistemi
+Real-time form validasyonu ve hata gösterimi
 
-Currently, two official plugins are available:
+📝 Kapsamlı Form Sistemi
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Kişisel Bilgiler: Ad, e-posta, telefon, konum, website, LinkedIn
+Deneyim: Şirket, pozisyon, tarih aralığı, açıklama
+Eğitim: Kurum, derece, alan, mezuniyet tarihi, GPA
+Beceriler: Beceri adı ve seviye (Beginner, Intermediate, Advanced, Expert)
 
-## Expanding the ESLint configuration
+🎯 Akıllı Validasyon
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Real-time form validasyonu
+E-posta formatı kontrolü
+URL formatı doğrulaması
+LinkedIn profil URL doğrulaması
+Minimum karakter sınırları
+Tarih aralığı kontrolü
+
+📊 İlerleme Takibi
+
+Görsel ilerleme çubuğu
+Adım durumu göstergeleri (tamamlandı, eksik, aktif)
+Tamamlanmamış adımlara geçiş engellemesi
+Validasyon uyarıları
+
+📄 PDF Export
+
+Profesyonel PDF çıktısı
+Otomatik sayfa bölmesi
+Yüksek kaliteli görüntü aktarımı
+Otomatik dosya adlandırma
+
+🛠️ Teknolojiler
+
+React 18+ - Modern React hooks ile state yönetimi
+Tailwind CSS - Utility-first CSS framework
+Lucide React - Modern ikonlar
+jsPDF - PDF oluşturma
+html2canvas - HTML'den canvas'a dönüştürme
+Context API - Global state yönetimi
+
+🚀 Kurulum
+Gereksinimler
+
+Node.js 16+
+npm veya yarn
+
+Adımlar
+
+Projeyi klonlayın
+bashgit clone [repository-url]
+cd portfolio-builder
+
+Bağımlılıkları yükleyin
+bashnpm install
+# veya
+yarn install
+
+Gerekli paketleri yükleyin
+bashnpm install jspdf html2canvas lucide-react
+# veya
+yarn add jspdf html2canvas lucide-react
+
+Uygulamayı başlatın
+bashnpm start
+# veya
+yarn start
+
+Tarayıcıda açın
+http://localhost:3000
