@@ -2,7 +2,7 @@
 
 Modern ve kullanıcı dostu bir portfolio oluşturma uygulaması. React ile geliştirilmiş bu uygulama, geliştiricilerin profesyonel portfolyolarını adım adım oluşturmalarına ve PDF olarak dışa aktarmalarına olanak tanır.
 
-Canlı Önizleme: [Live Preview][https://flourishing-elf-e2cb3e.netlify.app/]
+Canlı Önizleme: [https://flourishing-elf-e2cb3e.netlify.app/]
 
 ## 🌟 Özellikler
 
